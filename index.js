@@ -23,7 +23,11 @@ function viewCart() {
   }
     else if (cart.length ===2){
       return ('In your cart, you have '+Object.keys(cart[cart.length-2])+ " at $"+cart[cart.length-2][Object.keys(cart[cart.length-2])]+ ", and " +Object.keys(cart[cart.length-1])+" at $"+cart[cart.length-1][Object.keys(cart[cart.length-1])] +'.');
-  }
+      }
+      else {
+        var mystring = "In your cart, you have "
+        
+      }
 }
 function total() {
   var z = 0;
